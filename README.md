@@ -1,1 +1,1 @@
-# Lazpaint
+# LazPaint
