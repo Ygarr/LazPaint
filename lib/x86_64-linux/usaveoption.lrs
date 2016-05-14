@@ -1,0 +1,55 @@
+LazarusResources.Add('TFSaveOption','FORMDATA',[
+  'TPF0'#12'TFSaveOption'#11'FSaveOption'#4'Left'#3'w'#1#6'Height'#3#188#1#3'To'
+  +'p'#3#181#0#5'Width'#3'T'#2#11'BorderIcons'#11#12'biSystemMenu'#10'biMaximiz'
+  +'e'#0#7'Caption'#6#4'Save'#12'ClientHeight'#3#188#1#11'ClientWidth'#3'T'#2#8
+  +'OnCreate'#7#10'FormCreate'#9'OnDestroy'#7#11'FormDestroy'#6'OnHide'#7#8'For'
+  +'mHide'#10'LCLVersion'#6#8'1.0.10.0'#0#6'TPanel'#12'Panel_Option'#4'Left'#2#0
+  +#6'Height'#3#188#1#3'Top'#2#0#5'Width'#2'h'#5'Align'#7#6'alLeft'#10'BevelOut'
+  +'er'#7#6'bvNone'#12'ClientHeight'#3#188#1#11'ClientWidth'#2'h'#8'TabOrder'#2
+  +#0#0#6'TPanel'#18'Panel_BitsPerPixel'#4'Left'#2#0#6'Height'#2'w'#3'Top'#2#0#5
+  +'Width'#2'h'#5'Align'#7#5'alTop'#12'ClientHeight'#2'w'#11'ClientWidth'#2'h'#8
+  +'TabOrder'#2#0#0#6'TLabel'#16'Label_ColorDepth'#4'Left'#2#5#6'Height'#2#16#3
+  +'Top'#2#3#5'Width'#2'C'#7'Caption'#6#12'Color depth:'#11'ParentColor'#8#0#0
+  +#12'TRadioButton'#19'RadioButton_2Colors'#4'Left'#2#5#6'Height'#2#19#3'Top'#2
+  +#20#5'Width'#2'='#7'Caption'#6#8'2 colors'#8'OnChange'#7#30'RadioButton_Bits'
+  +'PerPixelChange'#8'TabOrder'#2#0#0#0#12'TRadioButton'#20'RadioButton_16Color'
+  +'s'#4'Left'#2#5#6'Height'#2#19#3'Top'#2'$'#5'Width'#2'C'#7'Caption'#6#9'16 c'
+  +'olors'#8'OnChange'#7#30'RadioButton_BitsPerPixelChange'#8'TabOrder'#2#1#0#0
+  +#12'TRadioButton'#21'RadioButton_256Colors'#4'Left'#2#5#6'Height'#2#19#3'Top'
+  +#2'4'#5'Width'#2'I'#7'Caption'#6#10'256 colors'#8'OnChange'#7#30'RadioButton'
+  +'_BitsPerPixelChange'#8'TabOrder'#2#3#0#0#12'TRadioButton'#26'RadioButton_24'
+  +'BitsPerPixel'#4'Left'#2#5#6'Height'#2#19#3'Top'#2'D'#5'Width'#2'6'#7'Captio'
+  +'n'#6#7'24 bits'#7'Checked'#9#8'OnChange'#7#30'RadioButton_BitsPerPixelChang'
+  +'e'#8'TabOrder'#2#2#7'TabStop'#9#0#0#9'TCheckBox'#18'CheckBox_Dithering'#4'L'
+  +'eft'#2#5#6'Height'#2#19#3'Top'#2'_'#5'Width'#2'E'#7'Caption'#6#9'Dithering'
+  +#7'Checked'#9#8'OnChange'#7#24'CheckBox_DitheringChange'#5'State'#7#9'cbChec'
+  +'ked'#8'TabOrder'#2#4#0#0#0#6'TPanel'#13'Panel_Quality'#4'Left'#2#0#6'Height'
+  +#3#206#0#3'Top'#2'w'#5'Width'#2'h'#5'Align'#7#5'alTop'#12'ClientHeight'#3#206
+  +#0#11'ClientWidth'#2'h'#8'TabOrder'#2#1#0#9'TTrackBar'#16'TrackBar_Quality'#4
+  +'Left'#2#28#6'Height'#3#154#0#3'Top'#2'.'#5'Width'#2#25#9'Frequency'#2#10#3
+  +'Max'#2'd'#8'OnChange'#7#22'TrackBar_QualityChange'#11'Orientation'#7#10'trV'
+  +'ertical'#8'Position'#2'd'#8'Reversed'#9#8'TabOrder'#2#0#0#0#6'TLabel'#6'Lab'
+  +'el1'#4'Left'#2#5#6'Height'#2#16#3'Top'#2#3#5'Width'#2'*'#7'Caption'#6#8'Qua'
+  +'lity:'#11'ParentColor'#8#0#0#5'TEdit'#17'Edit_QualityValue'#4'Left'#2#16#6
+  +'Height'#2#23#3'Top'#2#22#5'Width'#2';'#8'OnChange'#7#23'Edit_QualityValueCh'
+  +'ange'#6'OnExit'#7#21'Edit_QualityValueExit'#8'TabOrder'#2#1#0#0#6'TLabel'#7
+  +'Label_0'#4'Left'#2'<'#6'Height'#2#16#3'Top'#3#180#0#5'Width'#2#7#7'Caption'
+  +#6#1'0'#11'ParentColor'#8#0#0#6'TLabel'#7'Label_1'#4'Left'#2'<'#6'Height'#2
+  +#16#3'Top'#2'2'#5'Width'#2#19#7'Caption'#6#3'100'#11'ParentColor'#8#0#0#6'TL'
+  +'abel'#8'Label_50'#4'Left'#2'<'#6'Height'#2#16#3'Top'#2's'#5'Width'#2#13#7'C'
+  +'aption'#6#2'50'#11'ParentColor'#8#0#0#0#6'TPanel'#14'Panel_OkCancel'#4'Left'
+  +#2#0#6'Height'#2'P'#3'Top'#3'E'#1#5'Width'#2'h'#5'Align'#7#5'alTop'#12'Clien'
+  +'tHeight'#2'P'#11'ClientWidth'#2'h'#8'TabOrder'#2#2#0#7'TButton'#13'Button_C'
+  +'ancel'#4'Left'#2#5#6'Height'#2#22#3'Top'#2'5'#5'Width'#2'['#7'Anchors'#11#5
+  +'akTop'#7'akRight'#0#6'Cancel'#9#7'Caption'#6#6'Cancel'#11'ModalResult'#2#2#8
+  +'TabOrder'#2#0#0#0#7'TButton'#9'Button_OK'#4'Left'#2#5#6'Height'#2#22#3'Top'
+  +#2#28#5'Width'#2'['#7'Anchors'#11#5'akTop'#7'akRight'#0#7'Caption'#6#2'OK'#7
+  +'Default'#9#7'OnClick'#7#14'Button_OKClick'#8'TabOrder'#2#1#0#0#6'TLabel'#10
+  +'Label_Size'#4'Left'#2#7#6'Height'#2#16#3'Top'#2#7#5'Width'#2#24#7'Caption'#6
+  +#5'Size:'#11'ParentColor'#8#0#0#0#0#18'TBGRAVirtualScreen'#11'BGRAPreview'#4
+  +'Left'#2'h'#6'Height'#3#188#1#3'Top'#2#0#5'Width'#3#236#1#8'OnRedraw'#7#17'B'
+  +'GRAPreviewRedraw'#5'Align'#7#8'alClient'#9'Alignment'#7#13'taLeftJustify'#5
+  +'Color'#7#9'clBtnFace'#11'ParentColor'#8#8'TabOrder'#2#1#0#0#6'TTimer'#12'Ti'
+  +'mer_Update'#7'Enabled'#8#8'Interval'#3#244#1#7'OnTimer'#7#17'Timer_UpdateTi'
+  +'mer'#4'left'#2''''#3'top'#3#137#1#0#0#0
+]);

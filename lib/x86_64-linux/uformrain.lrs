@@ -1,0 +1,23 @@
+LazarusResources.Add('TFRain','FORMDATA',[
+  'TPF0'#6'TFRain'#5'FRain'#4'Left'#3#233#1#6'Height'#3#195#0#3'Top'#3#161#0#5
+  +'Width'#3#164#0#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bs'
+  +'Dialog'#7'Caption'#6#4'Rain'#12'ClientHeight'#3#195#0#11'ClientWidth'#3#164
+  +#0#8'OnCreate'#7#10'FormCreate'#9'OnDestroy'#7#11'FormDestroy'#6'OnHide'#7#8
+  +'FormHide'#6'OnShow'#7#8'FormShow'#8'Position'#7#16'poMainFormCenter'#10'LCL'
+  +'Version'#6#7'1.2.4.0'#0#9'TPaintBox'#13'PaintBox_Wind'#4'Left'#2#15#6'Heigh'
+  +'t'#2'0'#3'Top'#2' '#5'Width'#3#134#0#11'OnMouseDown'#7#22'PaintBox_WindMous'
+  +'eDown'#11'OnMouseMove'#7#22'PaintBox_WindMouseMove'#9'OnMouseUp'#7#20'Paint'
+  +'Box_WindMouseUp'#7'OnPaint'#7#18'PaintBox_WindPaint'#0#0#6'TLabel'#10'Label'
+  +'_Wind'#4'Left'#2#15#6'Height'#2#15#3'Top'#2#11#5'Width'#2''''#7'Caption'#6#6
+  +'Wind :'#11'ParentColor'#8#0#0#7'TButton'#9'Button_OK'#4'Left'#2#10#6'Height'
+  +#2#22#3'Top'#3#160#0#5'Width'#2';'#7'Caption'#6#2'OK'#7'Default'#9#7'OnClick'
+  +#7#14'Button_OKClick'#8'TabOrder'#2#0#0#0#7'TButton'#13'Button_Cancel'#4'Lef'
+  +'t'#2'L'#6'Height'#2#22#3'Top'#3#160#0#5'Width'#2'I'#6'Cancel'#9#7'Caption'#6
+  +#6'Cancel'#11'ModalResult'#2#2#8'TabOrder'#2#1#0#0#9'TTrackBar'#17'TrackBar_'
+  +'Quantity'#4'Left'#2#8#6'Height'#2#25#3'Top'#2'w'#5'Width'#3#144#0#9'Frequen'
+  +'cy'#2'd'#3'Max'#2'd'#8'PageSize'#3#200#0#8'Position'#2#0#8'ScalePos'#7#7'tr'
+  +'Right'#8'TabOrder'#2#2#0#0#6'TLabel'#14'Label_Quantity'#4'Left'#2#16#6'Heig'
+  +'ht'#2#15#3'Top'#2'`'#5'Width'#2'7'#7'Caption'#6#9'Quantity:'#11'ParentColor'
+  +#8#0#0#6'TTimer'#6'Timer1'#7'Enabled'#8#8'Interval'#2'd'#7'OnTimer'#7#11'Tim'
+  +'er1Timer'#4'left'#2'`'#3'top'#2'('#0#0#0
+]);

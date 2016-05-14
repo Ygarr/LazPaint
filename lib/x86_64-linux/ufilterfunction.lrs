@@ -1,0 +1,49 @@
+LazarusResources.Add('TFFilterFunction','FORMDATA',[
+  'TPF0'#16'TFFilterFunction'#15'FFilterFunction'#4'Left'#3#181#1#6'Height'#3
+  +#241#0#3'Top'#3#135#0#5'Width'#3#174#1#11'BorderIcons'#11#12'biSystemMenu'#0
+  +#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#14'Apply function'#12'ClientHeig'
+  +'ht'#3#241#0#11'ClientWidth'#3#174#1#8'OnCreate'#7#10'FormCreate'#9'OnDestro'
+  +'y'#7#11'FormDestroy'#8'Position'#7#14'poScreenCenter'#10'LCLVersion'#6#8'1.'
+  +'0.10.0'#0#7'TButton'#9'Button_OK'#4'Left'#3#137#0#6'Height'#2#22#3'Top'#3
+  +#210#0#5'Width'#2';'#7'Anchors'#11#6'akLeft'#8'akBottom'#0#7'Caption'#6#2'OK'
+  +#7'Default'#9#7'Enabled'#8#7'OnClick'#7#14'Button_OKClick'#8'TabOrder'#2#0#0
+  +#0#7'TButton'#13'Button_Cancel'#4'Left'#3#201#0#6'Height'#2#22#3'Top'#3#210#0
+  +#5'Width'#2'I'#7'Anchors'#11#6'akLeft'#8'akBottom'#0#6'Cancel'#9#7'Caption'#6
+  +#6'Cancel'#11'ModalResult'#2#2#7'OnClick'#7#18'Button_CancelClick'#8'TabOrde'
+  +'r'#2#1#0#0#6'TLabel'#17'Label_AlphaEquals'#4'Left'#2#20#6'Height'#2#16#3'To'
+  +'p'#3#157#0#5'Width'#2#4#7'Caption'#6#1'.'#11'ParentColor'#8#0#0#5'TEdit'#10
+  +'Edit_Alpha'#4'Left'#2'C'#6'Height'#2#23#3'Top'#3#154#0#5'Width'#3'\'#1#8'On'
+  +'Change'#7#16'Edit_AlphaChange'#8'TabOrder'#2#2#0#0#9'TCheckBox'#13'CheckBox'
+  +'_GSBA'#4'Left'#2#9#6'Height'#2#19#3'Top'#3#181#0#5'Width'#3#168#0#7'Anchors'
+  +#11#6'akLeft'#8'akBottom'#0#7'Caption'#6#27'Corrected hue and lightness'#8'O'
+  +'nChange'#7#19'CheckBox_GSBAChange'#8'TabOrder'#2#3#0#0#12'TPageControl'#17
+  +'PageControl_Color'#4'Left'#2#8#6'Height'#2'x'#3'Top'#2#31#5'Width'#3#160#1
+  +#10'ActivePage'#7#12'TabSheet_RGB'#8'TabIndex'#2#0#8'TabOrder'#2#4#8'OnChang'
+  +'e'#7#23'PageControl_ColorChange'#0#9'TTabSheet'#12'TabSheet_RGB'#7'Caption'
+  +#6#3'RGB'#12'ClientHeight'#2'\'#11'ClientWidth'#3#152#1#0#6'TLabel'#15'Label'
+  +'_RedEquals'#4'Left'#2#9#6'Height'#2#16#3'Top'#2#9#5'Width'#2#4#7'Caption'#6
+  +#1'.'#11'ParentColor'#8#0#0#5'TEdit'#8'Edit_Red'#4'Left'#2'8'#6'Height'#2#23
+  +#3'Top'#2#6#5'Width'#3'['#1#8'OnChange'#7#14'Edit_RedChange'#8'TabOrder'#2#0
+  +#0#0#5'TEdit'#10'Edit_Green'#4'Left'#2'8'#6'Height'#2#23#3'Top'#2'"'#5'Width'
+  +#3'['#1#8'OnChange'#7#16'Edit_GreenChange'#8'TabOrder'#2#1#0#0#6'TLabel'#17
+  +'Label_GreenEquals'#4'Left'#2#9#6'Height'#2#16#3'Top'#2'%'#5'Width'#2#4#7'Ca'
+  +'ption'#6#1'.'#11'ParentColor'#8#0#0#6'TLabel'#16'Label_BlueEquals'#4'Left'#2
+  +#9#6'Height'#2#16#3'Top'#2'A'#5'Width'#2#4#7'Caption'#6#1'.'#11'ParentColor'
+  +#8#0#0#5'TEdit'#9'Edit_Blue'#4'Left'#2'8'#6'Height'#2#23#3'Top'#2'>'#5'Width'
+  +#3'['#1#8'OnChange'#7#15'Edit_BlueChange'#8'TabOrder'#2#2#0#0#0#9'TTabSheet'
+  +#12'TabSheet_HSL'#7'Caption'#6#3'HSL'#12'ClientHeight'#2'\'#11'ClientWidth'#3
+  +#152#1#0#6'TLabel'#15'Label_HueEquals'#4'Left'#2#9#6'Height'#2#16#3'Top'#2#9
+  +#5'Width'#2#4#7'Caption'#6#1'.'#11'ParentColor'#8#0#0#5'TEdit'#8'Edit_Hue'#4
+  +'Left'#2'T'#6'Height'#2#23#3'Top'#2#6#5'Width'#3'?'#1#8'OnChange'#7#14'Edit_'
+  +'HueChange'#8'TabOrder'#2#0#0#0#5'TEdit'#15'Edit_Saturation'#4'Left'#2'T'#6
+  +'Height'#2#23#3'Top'#2'"'#5'Width'#3'?'#1#8'OnChange'#7#21'Edit_SaturationCh'
+  +'ange'#8'TabOrder'#2#1#0#0#6'TLabel'#22'Label_SaturationEquals'#4'Left'#2#9#6
+  +'Height'#2#16#3'Top'#2'%'#5'Width'#2#4#7'Caption'#6#1'.'#11'ParentColor'#8#0
+  +#0#6'TLabel'#21'Label_LightnessEquals'#4'Left'#2#9#6'Height'#2#16#3'Top'#2'A'
+  +#5'Width'#2#4#7'Caption'#6#1'.'#11'ParentColor'#8#0#0#5'TEdit'#14'Edit_Light'
+  +'ness'#4'Left'#2'T'#6'Height'#2#23#3'Top'#2'>'#5'Width'#3'?'#1#8'OnChange'#7
+  +#20'Edit_LightnessChange'#8'TabOrder'#2#2#0#0#0#0#6'TLabel'#15'Label_Variabl'
+  +'es'#4'Left'#2#9#6'Height'#2#16#3'Top'#2#8#5'Width'#2'6'#7'Caption'#6#11'Var'
+  +'iables :'#11'ParentColor'#8#0#0#6'TTimer'#6'Timer1'#7'Enabled'#8#8'Interval'
+  +#2#30#7'OnTimer'#7#11'Timer1Timer'#4'left'#3#200#0#3'top'#2'('#0#0#0
+]);

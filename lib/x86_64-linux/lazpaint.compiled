@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1458634306"/>
+  <Params Value=" -MObjFPC -Scgi -Cg -O3 -OoREGVAR -Xs -XX -l -vewnhibq -Fi/home/kldov/temp/lazpaint/release/lib/x86_64-linux -Fl/opt/gnome/lib -Fu/home/kldov/temp/lazpaint/buttons -Fu/home/kldov/temp/lazpaint/inet0.6.6/lazaruspackage/lib/x86_64-linux -Fu/home/kldov/temp/lazpaint/bgracontrols/lib/x86_64-linux/3.0.0 -Fu/home/kldov/.lazarus/lib/Printer4Lazarus/lib/x86_64-linux/gtk2 -Fu/home/kldov/.lazarus/lib/IDEIntf/units/x86_64-linux/gtk2 -Fu/home/kldov/.lazarus/lib/pascalscript/lib/x86_64-linux -Fu/home/kldov/.lazarus/lib/LazControls/lib/x86_64-linux/gtk2 -Fu/home/kldov/.lazarus/lib/cairocanvas_pkg/lib/x86_64-linux/gtk2 -Fu/home/kldov/temp/lazpaint/bgrabitmap8.8.4/lib/x86_64-linux/3.0.0 -Fu/home/kldov/.lazarus/lib/units/x86_64-linux/gtk2 -Fu/home/kldov/.lazarus/lib/LCLBase/units/x86_64-linux -Fu/home/kldov/.lazarus/lib/LazUtils/lib/x86_64-linux -Fu/home/kldov/.lazarus/lib/units/x86_64-linux -Fu/home/kldov/temp/lazpaint/ -FU/home/kldov/temp/lazpaint/release/lib/x86_64-linux/ -FE/home/kldov/temp/lazpaint/release/ -dLCL -dLCLgtk2 lazpaint.lpr"/>
+</CONFIG>
